@@ -3,10 +3,10 @@ import { Layout } from "../../components";
 import MediaGallery from "../../components/MediaGallery";
 
 const media = [
-  { type: "video", url: "../../public/assets/videos/holidaze - video.mp4" },
+  { type: "video", url: "../public/assets/videos/holidaze - video.mp4" },
   {
     type: "image",
-    url: "../../public/assets/images/holidaze-screenshot1.png",
+    url: "./public/assets/images/holidaze-screenshot1.png",
     alt: "Screenshot 1",
   },
   {
