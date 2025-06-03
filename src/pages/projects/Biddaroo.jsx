@@ -3,25 +3,25 @@ import { Layout } from "../../components";
 import MediaGallery from "../../components/MediaGallery";
 
 const media = [
-  { type: "video", url: "/public/assets/videos/Biddaroo - video.mp4" },
+  { type: "video", url: "/assets/videos/Biddaroo - video.mp4" },
   {
     type: "image",
-    url: "/public/assets/images/biddaroo-screenshot1.png",
+    url: "/assets/images/biddaroo-screenshot1.png",
     alt: "Screenshot 1",
   },
   {
     type: "image",
-    url: "/public/assets/images/biddaroo-screenshot2.png",
+    url: "/assets/images/biddaroo-screenshot2.png",
     alt: "Screenshot 2",
   },
   {
     type: "image",
-    url: "/public/assets/images/biddaroo-screenshot3.png",
+    url: "/assets/images/biddaroo-screenshot3.png",
     alt: "Screenshot 3",
   },
   {
     type: "image",
-    url: "/public/assets/images/biddaroo-screenshot4.png",
+    url: "/assets/images/biddaroo-screenshot4.png",
     alt: "Screenshot 4",
   },
 ];
