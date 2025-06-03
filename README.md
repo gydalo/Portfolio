@@ -1,5 +1,24 @@
-# Vue 3 + Vite
+# Portfolio 2
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is my updated developer portfolio built with **React** and styled using **plain CSS**. It showcases three key projects from my frontend development education:
+- JavaScript Frameworks (Aaryn)
+- Semester Project 2 (Biddaroo)
+- Exam Project 2 (Holidaze)
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+##  Live Site
+[Visit my portfolio](https://gydalofthus.netlify.app/)
+
+## Purpose
+This portfolio is part of my final delivery at Noroff. It demonstrates my development progress and includes reflections on past projects.
+
+## Features
+- Fully responsive layout
+- Project teaser cards on the homepage.
+- Dedicated page for each project
+- Image and video gallery for project visuals
+- Links to live projects and GitHub repositories
+
+## Built With
+- React
+- CSS (global stylesheet)
+- Figma (for design planning)
