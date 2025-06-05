@@ -119,7 +119,6 @@ p, h2, h3, h4 {
 }
 
 ul {
-  padding-left: 2rem;
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
   list-style-type: disc;
@@ -592,6 +591,10 @@ justify-content: center;
   margin: 0 auto;
   padding: 2rem;
   line-height: 1.6;
+}
+
+.project-description ul {
+  padding-left: 1.5rem;
 }
 
 .media-gallery {
