@@ -4,6 +4,10 @@ import biddarooImg from "../../public/assets/images/Biddaroo.png";
 import holidazeImg from "../../public/assets/images/Holidaze.png";
 import aarynImg from "../../public/assets/images/Aaryn.png";
 
+/**
+ * Array of project information including title, image, alt text,
+ * description, and links to GitHub and a live demo.
+ */
 const projects = [
   {
     title: "Biddaroo",
@@ -34,6 +38,13 @@ const projects = [
   },
 ];
 
+/**
+ * Renders a list of project cards based on the `projects` array.
+ * Each card includes the project title, image, description, and buttons to visit
+ * the live version or GitHub repository.
+ *
+ * @component
+ */
 const Projects = () => {
   return (
     <div className="projects" id="projects">

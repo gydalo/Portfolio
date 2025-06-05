@@ -1,5 +1,22 @@
 import React, { useState } from "react";
 
+/**
+ * MediaGallery component displays a gallery of images and videos.
+ * Users can click on a thumbnail to view the media in a larger main preview.
+ *
+ * @component
+ * @param {Object[]} media - An array of media items to display.
+ * @param {string} media[].url - The URL of the media item (image or video).
+ * @param {string} [media[].alt] - Optional alt text for images.
+ * @param {string} media[].type - The type of media: 'image' or 'video'.
+ *
+ * @example
+ * const media = [
+ *   { url: "image1.jpg", alt: "A nice view", type: "image" },
+ *   { url: "video1.mp4", type: "video" },
+ * ];
+ * return <MediaGallery media={media} />
+ */
 function MediaGallery({ media }) {
   const [selectedIndex, setSelectedIndex] = useState(0);
 

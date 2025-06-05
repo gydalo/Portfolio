@@ -2,6 +2,15 @@ import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretUp } from "@fortawesome/free-solid-svg-icons";
 
+/**
+ * ScrollToTopButton
+ *
+ * A floating button that appears after the user scrolls down 200px.
+ * When clicked, it smoothly scrolls the page back to the top.
+ *
+ * @component
+ * @returns {JSX.Element|null} The scroll-to-top button or null if not visible.
+ */
 const ScrollToTopButton = () => {
   const [visible, setVisible] = useState(false);
 

@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Layout,
   Home,
@@ -7,8 +8,14 @@ import {
   About,
   ScrollToTopButton,
 } from "../components";
-import React from "react";
 
+/**
+ * 
+ * HomePage component for displaying the main sections of the portfolio.
+ *
+ * @component
+ * @returns {JSX.Element} A complete project page with layout and all sections.
+ */
 function HomePage() {
   return (
     <>

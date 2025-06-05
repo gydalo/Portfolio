@@ -2,6 +2,10 @@ import React from "react";
 import { Layout } from "../../components";
 import MediaGallery from "../../components/MediaGallery";
 
+/**
+ * Media content for the project.
+ * Includes a video demo and screenshots.
+ */
 const media = [
   { type: "video", url: "/assets/videos/holidaze - video.mp4" },
   {
@@ -26,11 +30,21 @@ const media = [
   },
 ];
 
+
+/**
+ * URLs for the live project and GitHub repository.
+ */
 const project = {
   liveUrl: "https://holidazegydalo.netlify.app/",
   githubUrl: "https://github.com/gydalo/holidaze",
 };
 
+/**
+ * ProjectPage component for displaying detailed information about the project.
+ *
+ * @component
+ * @returns {JSX.Element} A complete project page with media, description, and resource links.
+ */
 function ProjectPage() {
   return (
     <>

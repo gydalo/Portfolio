@@ -4,6 +4,17 @@ import githubLogo from "../../public/assets/images/github.png";
 import linkedinLogo from "../../public/assets/images/linkedin.png";
 import cvPdf from "../../public/assets/images/CV-engelsk.pdf";
 
+/**
+ * Home component represents the first section of the portfolio site.
+ * It includes an introduction with a profile picture, buttons to download a CV and view contact info,
+ * and icons linking to GitHub and LinkedIn profiles.
+ *
+ * @component
+ * @example
+ * return (
+ *   <Home />
+ * )
+ */
 const Home = () => {
   return (
     <section className="home" id="home">

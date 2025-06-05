@@ -2,6 +2,16 @@ import React from "react";
 import dogImg from "../../public/assets/images/tur.jpg";
 import poleImg from "../../public/assets/images/pole.jpeg";
 
+/**
+ * About component that introduces the developer and their interests.
+ * Includes two sections: a personal description and hobbies with images.
+ *
+ * @component
+ * @example
+ * return (
+ *   <About />
+ * )
+ */
 const About = () => {
   return (
     <div className="about" id="about">

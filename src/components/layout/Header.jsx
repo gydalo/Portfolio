@@ -1,6 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
+/**
+ * Header component for both desktop and mobile navigation.
+ * It adapts based on scroll position and current route,
+ * displaying either general navigation or project-specific links.
+ *
+ * @component
+ * @returns {JSX.Element} Header with responsive navigation.
+ */
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -18,6 +27,7 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Determine if the user is viewing a detailed project page
   const isProjectPage =
     location.pathname.includes("/projects/Aaryn") ||
     location.pathname.includes("/projects/Biddaroo") ||

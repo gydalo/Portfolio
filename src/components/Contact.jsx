@@ -1,5 +1,14 @@
 import React from "react";
-
+/**
+ * Contact component displays the developers contact information,
+ * including email and LinkedIn profile link.
+ *
+ * @component
+ * @example
+ * return (
+ *   <Contact />
+ * )
+ */
 const Contact = () => {
   return (
     <div className="contact" id="contact">

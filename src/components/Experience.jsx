@@ -1,5 +1,14 @@
 import React from "react";
-
+/**
+ * Experience component displays the user's educational background
+ * and skill levels in frontend and backend development.
+ *
+ * @component
+ * @example
+ * return (
+ *   <Experience />
+ * )
+ */
 const Experience = () => {
   return (
     <div className="experience" id="experience">
